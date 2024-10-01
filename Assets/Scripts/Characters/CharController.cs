@@ -33,7 +33,7 @@ public class CharController : MonoBehaviour
         // Handle input or AI actions
         if (isPlayerCharacter && canAcceptInput)
         {
-            HandlePlayerInput();
+            //HandlePlayerInput();
         }
     }
 
@@ -46,17 +46,6 @@ public class CharController : MonoBehaviour
         character.Mana = characterData.Mana;
         character.Stats = characterData.Stats;
         character.Inventory = characterData.Inventory;
-    }
-
-    private void HandlePlayerInput()
-    {
-        // Example input handling
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            // Attack command
-            Character target = FindTarget();
-            character.Attack(target);
-        }
     }
 
     public void OnAttackButtonPressed()
