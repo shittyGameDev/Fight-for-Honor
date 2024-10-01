@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cea943b35395e994a9a9424e9cfafb10, type: 3}
   m_Name: FirstEnemy
   m_EditorClassIdentifier: 
-  Name: 
-  Level: 0
-  Health: 0
-  Mana: 0
+  Name: Jens
+  Level: 1
+  Health: 5
+  Mana: 5
